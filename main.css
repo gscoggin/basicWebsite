@@ -6,6 +6,7 @@ body {
   background-color: #f5f8fa;
   background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  background-clip: border-box;
 }
 
 nav {
@@ -32,13 +33,17 @@ nav {
 
 .subdiv1 {
   background-color: steelblue;
+  height: 100px;
   position: relative;
+  left: 100px;
   z-index: 2;
 }
 
 .innerdiv1{
   background-color: red;
-  position: static;
+  height: 75px;
+  position: relative;
+  left: 250px;
   z-index: 2;
 }
 
@@ -48,4 +53,15 @@ nav {
 
 .maindiv3 {
   
+}
+
+
+#footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }
