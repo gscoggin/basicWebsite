@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+body {
+  font-family: 'Open Sans', sans-serif; 
+  background-color: #f5f8fa;
+  background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+nav {
+  border-bottom: 1px solid #333333;
+  text-align: center;
+  margin: 0, 15, 0, 15
+}
+
+#main-menu .nav-bar { 
+  list-style:none; margin-top: 20px; 
+}
+
+#main-menu .nav-bar li { 
+  display:inline; padding:0 30px; 
+}
+
+
+.maindiv1 {
+  background-color: springgreen;
+  height: 160px;
+  position: relative;
+  z-index: 1;
+}
+
+.subdiv1 {
+  background-color: steelblue;
+  position: relative;
+  z-index: 2;
+}
+
+.innerdiv1{
+  background-color: red;
+  position: static;
+  z-index: 2;
+}
+
+.maindiv2 {
+  
+}
+
+.maindiv3 {
+  
+}
