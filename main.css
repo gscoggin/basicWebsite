@@ -1,63 +1,104 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-
 body {
   font-family: 'Open Sans', sans-serif; 
-  background-color: #f5f8fa;
   background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-  background-clip: border-box;
 }
 
 nav {
-  border-bottom: 1px solid #333333;
+  /* border-bottom: 1px solid #333333; */
   text-align: center;
   margin: 0, 15, 0, 15
 }
+
+/* section {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+/* section::after {
+  border-bottom: 1px solid #003366;
+  content: '';
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+} */
 
 #main-menu .nav-bar { 
   list-style:none; margin-top: 20px; 
 }
 
 #main-menu .nav-bar li { 
-  display:inline; padding:0 30px; 
+  display:inline; 
+  padding:0 30px; 
+}
+
+.heading {
+  /* height: 250px; */
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.heading h1 { 
+  margin-bottom: 0px;
+}
+
+h3 { 
+  margin-top: 0px;
+}
+
+.underline {
+  border-bottom: 1px solid #333333;
+}
+
+/* .portrait { 
+  height: 200px;
+  position: absolute;
+  top: 120px;
+  left: 700px;
+  /* right: 200px; */
+  /* z-index: 2;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+   
+} */
+
+
+.introduction {
+}
+
+.experience {
+}
+
+.skills {
+  /* column-count: 2; */
+  /* text-align: center; */
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  /* padding: 10px; */
+  height: 200px; /* Should be removed. Only for demonstration */
 }
 
 
-.maindiv1 {
-  background-color: springgreen;
-  height: 160px;
-  position: relative;
-  z-index: 1;
+.skillsHeader {
+  column-span: all;
 }
 
-.subdiv1 {
-  background-color: steelblue;
-  height: 100px;
-  position: relative;
-  left: 100px;
-  z-index: 2;
-}
-
-.innerdiv1{
-  background-color: red;
-  height: 75px;
-  position: relative;
-  left: 250px;
-  z-index: 2;
-}
-
-.maindiv2 {
-  
-}
-
-.maindiv3 {
-  
+.technical {
 }
 
 
 #footer {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
